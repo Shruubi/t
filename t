@@ -2,4 +2,9 @@
 
 # a shortcut script for tar-ing files so i don't have to remember tar flags
 
-tar -xzvf $1
+if [ $1 == "create"  ]
+then
+        tar -cf $2 $3
+else
+        tar -xzvf $1
+fi
