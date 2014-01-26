@@ -1,8 +1,10 @@
-# t
+t
+======
 
 A simple script for lazy people who never remember tar flags
 
-## usage
+usage
+-------
 
 to un-tar a file:
 
@@ -16,6 +18,7 @@ to create a tar file
 ./t c tar_filename <filelist>
 ```
 
-## install
+install
+---------
 
 be lazy like me and copy it into /usr/bin
