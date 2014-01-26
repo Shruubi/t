@@ -4,7 +4,10 @@
 
 if [ $1 == "c"  ]
 then
-        tar -cf $2 $3
+        tar_filename=$2
+        shift
+        shift
+        tar -cf $tar_filename $@
 else
         tar -xzvf $1
 fi
